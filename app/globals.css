@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-900: #081f3f;
+  --navy-800: #112b4b;
+  --navy-700: #183d63;
+  --teal-600: #0ea5a4;
+  --teal-500: #20b2aa;
+  --teal-400: #45d7c4;
+  --slate-100: #f4f9fb;
+  --slate-200: #dfeaf0;
+  --slate-500: #5f6d7c;
+  --slate-700: #243447;
+  --green-600: #1f9d73;
+  --amber-500: #f59e0b;
+  --red-500: #ef4444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--slate-700);
+  background: linear-gradient(180deg, #f9fbff 0%, #edf6f8 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(24, 61, 99, 0.08);
+  border-radius: 1rem;
+  box-shadow: 0 10px 35px rgba(8, 31, 63, 0.08);
+}
+
+.bg-navy {
+  background: var(--navy-900);
+}
+
+.text-navy {
+  color: var(--navy-900);
+}
+
+.text-teal {
+  color: var(--teal-600);
+}
+
+.bg-teal {
+  background: var(--teal-600);
+}
+
+.bg-soft {
+  background: linear-gradient(135deg, #0c2b4f 0%, #0f676d 100%);
+}
+
+button,
+a {
+  transition: all 0.2s ease;
+}
